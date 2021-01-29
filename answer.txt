@@ -1,0 +1,13 @@
+1. TOYOTA COROLLA
+ANS: With all the data of models, the p value is 2.2e-16 and in this summary cc and doors are influencing to each other,
+so predicting the models on individuals and both the values are significant.
+delete influence records and build a model: multiple Rsquared = 0.8694
+the final model multiple Rsquared = 0.8693 p value= 2.2e-16.
+
+
+2. 50STARTUPS
+ANS:the r squared values for each model is belows;
+summary(lm(Profit~R.D.Spend))= Multiple R-squared:  0.9465, Adjusted R-squared:  0.9454,  p-value: < 2.2e-16
+ summary(lm(Profit~Administration))= Multiple R-squared:  0.04029,	Adjusted R-squared:  0.02029 ,  p-value: 0.1622
+summary(lm(Profit~Marketing.Spend))= Multiple R-squared:  0.5592,	Adjusted R-squared:   0.55 ,p-value: 4.381e-10
+summary(lm(Profit~State))= Multiple R-squared:  0.02388,	Adjusted R-squared:  -0.01766 ,p-value: 0.5667
